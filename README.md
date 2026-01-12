@@ -3,7 +3,7 @@
 Ce projet implémente un système de classification de texte utilisant des réseaux de neurones pour catégoriser des articles de presse du dataset 20 Newsgroups en 20 catégories thématiques.
 
 ### Structure du projet :
-projet-classification-20newsgroups/  
+Projet-ML/  
 ├── projetSujet4.ipynb   # Notebook principal  
 ├── README.md                           # Ce fichier  
 
@@ -13,31 +13,31 @@ Prérequis :
 * Google Colab (recommandé) ou environnement local avec GPU
 
 ### Exécution du notebook :
-1 - Ouvrez le notebook dans Colab ou Jupyter 
-2 - Exécutez les cellules dans l'ordre :
-Cellule 1 : Import des bibliothèques
-Cellule 2 : Chargement et exploration des données
-Cellule 3 : Prétraitement du texte
-Cellule 4 : Modèles baselines
-Cellule 5 : Réseau de neurones initial
-Cellule 6 : Recherche d'hyperparamètres
-Cellule 7 : Évaluation et comparaison
+1 - Ouvrez le notebook dans Colab ou Jupyter   
+2 - Exécutez les cellules dans l'ordre :  
+Cellule 1 : Import des bibliothèques  
+Cellule 2 : Chargement et exploration des données  
+Cellule 3 : Prétraitement du texte  
+Cellule 4 : Modèles baselines  
+Cellule 5 : Réseau de neurones initial  
+Cellule 6 : Recherche d'hyperparamètres  
+Cellule 7 : Évaluation et comparaison  
 
 ### Jeu de données :
 * Source
-Nom : 20 Newsgroups
-Source : Scikit-learn (fetch_20newsgroups)
-Taille : ~18,000 documents
-Classes : 20 catégories thématiques
-Description : Collection d'articles de forums Usenet répartis en 20 groupes thématiques
+Nom : 20 Newsgroups  
+Source : Scikit-learn (fetch_20newsgroups)  
+Taille : ~18,000 documents  
+Classes : 20 catégories thématiques  
+Description : Collection d'articles de forums Usenet répartis en 20 groupes thématiques  
 
-### Catégories :
-Les 20 catégories incluent :
-* comp.graphics, comp.os.ms-windows.misc, comp.sys.ibm.pc.hardware, comp.sys.mac.hardware
-* comp.windows.x, misc.forsale, rec.autos, rec.motorcycles
-* rec.sport.baseball, rec.sport.hockey, sci.crypt, sci.electronics
-* sci.med, sci.space, soc.religion.christian, talk.politics.guns
-* talk.politics.mideast, talk.politics.misc, talk.religion.misc
+### Catégories :  
+Les 20 catégories incluent :  
+* comp.graphics, comp.os.ms-windows.misc, comp.sys.ibm.pc.hardware, comp.sys.mac.hardware  
+* comp.windows.x, misc.forsale, rec.autos, rec.motorcycles  
+* rec.sport.baseball, rec.sport.hockey, sci.crypt, sci.electronics  
+* sci.med, sci.space, soc.religion.christian, talk.politics.guns  
+* talk.politics.mideast, talk.politics.misc, talk.religion.misc  
 
 ### Préparation des données :
 * Nettoyage : Suppression des en-têtes, pieds de page et citations
