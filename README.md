@@ -3,9 +3,9 @@
 Ce projet implémente un système de classification de texte utilisant des réseaux de neurones pour catégoriser des articles de presse du dataset 20 Newsgroups en 20 catégories thématiques.
 
 ### Structure du projet :
-projet-classification-20newsgroups/
-├── projetSujet4.ipynb   # Notebook principal
-├── README.md                           # Ce fichier
+projet-classification-20newsgroups/  
+├── projetSujet4.ipynb   # Notebook principal  
+├── README.md                           # Ce fichier  
 
 ### Instructions d'exécution :
 Prérequis : 
