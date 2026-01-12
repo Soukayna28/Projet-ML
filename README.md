@@ -24,7 +24,7 @@ Cellule 6 : Recherche d'hyperparamètres
 Cellule 7 : Évaluation et comparaison  
 
 ### Jeu de données :
-* Source
+* Source  
 Nom : 20 Newsgroups  
 Source : Scikit-learn (fetch_20newsgroups)  
 Taille : ~18,000 documents  
